@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: beige;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   z-index: 99;
+   margin-top: 20px;
+}
+
+nav ul li
+{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul
+{
+    display: flex;
+}
+.logo-container h1
+{
+    font-family: sans-serif;
+}
+.sidebar
+{
+    background: rgb(203, 203, 80);
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+.content-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+.main-img
+{
+    width: 400px;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    height: 600px;
+}
+.main-title
+{
+    transform: rotate(-90deg);
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-family: "kumar one outline", cursive;
+}
+.main-info
+{
+    
+    font-family: sans-serif;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    color: black;
+   
+}
